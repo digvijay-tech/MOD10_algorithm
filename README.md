@@ -30,3 +30,19 @@ The Luhn algorithm is primarily used to catch errors in data entry or transmissi
 __Note__: Passing the Luhn test does not guarantee that a number is valid or active; it merely checks the number's format for accuracy. Actual authorization and validation of credit card numbers involve additional checks with financial institutions.
 
 In summary, the Luhn algorithm is a straightforward checksum formula used to validate various identification numbers by verifying their format. It is a quick and effective way to catch common data entry errors but does not verify the authenticity or validity of the number in a broader sense.
+
+
+
+__Dummy Test Cards:__
+````
+Will Pass:
+-> 4525908427216116
+-> 5555555555554444
+-> 4444333322221111
+````
+````
+Will Not Pass:
+-> 4525908427216114
+-> 5525908427216116
+-> 4444333322221116
+````
