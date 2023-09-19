@@ -1,4 +1,4 @@
-# LUHN ALGORITHM
+# LUHN TEST
 
 ----
 
